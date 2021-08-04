@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Express Demo App</h1> <h4>Message: Checking the commit made via deploy</h4> <p>Version 5.0</p>');
+  res.send('<h1>Express Demo App</h1> <h4>Message: commit made via deploy</h4> <p>Version 5.0</p>');
 })
 
 app.get('/products', (req, res) => {
@@ -17,7 +17,7 @@ app.get('/products', (req, res) => {
       price: 150
     } ,
    ,{
-      message: 'This is the product page where the msg is displayed'
+      message: 'This is the product page where the msg is 56 65416516 851 651 displayed'
     }
   ])
 })
